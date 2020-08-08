@@ -1,0 +1,42 @@
+.slidercontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: -1;
+    
+}
+.slidercontent__image{
+    
+   
+}
+
+.slidercontent__writing{
+    display: grid;
+    place-content: center;
+    
+}
+.slidercontent__writing>h5{
+  font-size: 1.2em;
+  font-weight: 700px;
+ 
+}
+.slidercontent__writing > hr{
+   width: 40%;
+   margin: auto;
+   
+}
+
+.slidercontent_button{
+    margin-top: 10px;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    color:white;
+    background-color: royalblue;
+    outline: none;
+    border: none    ;
+}
+.slidercontent_button:hover{
+  background-color: rgb(6, 49, 175);
+}

@@ -1,0 +1,56 @@
+.pros{
+    margin-top: 50px;
+   
+
+}
+.props__title{
+    
+    width: 60%;
+    margin: auto;
+}
+
+.pros__card{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+@media (max-width:767px){
+    .pros__card{
+        flex-wrap: wrap;
+    }
+}
+.proscard >h4{
+    font-size: 1.1rem;
+    font-weight: 700px;
+    color : #121212;
+}
+.proscard >h6{
+    font-size: 0.9rem;
+    font-weight: 700px;
+    margin-top: -15px;
+    color : #121212;
+}
+
+.pros_Icon{
+    font-size: 100px !important;
+   
+}
+
+.pros_Icon:hover{
+    color: royalblue;
+   
+}
+
+.proscard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 30px;
+}

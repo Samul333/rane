@@ -1,0 +1,30 @@
+.before_network{
+    display: flex;
+}
+.network{
+    background-image: url("https://previews.123rf.com/images/apichon168/apichon1681912/apichon168191200044/136365668-woman-using-laptop-computer-female-working-on-laptop-in-a-cafe-web-banner-.jpg");
+    color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  
+}
+
+.network__bottom{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+}
+.network_left{
+    margin-right: 20px;
+}
+.network_left:hover{
+    color: rgb(231, 231, 39);
+}
+
+.network_right{
+    margin-left: 20px;
+}

@@ -1,0 +1,21 @@
+.banner{
+    min-height: 94px;
+    max-height: auto;
+    background-color: royalblue;
+    color: white;
+    display: grid;
+   
+    place-content: center;
+
+    border-bottom:5px solid rgba(20, 62, 187, 0.733) ;
+    margin-bottom: 20px;
+
+   
+
+}
+
+.banner >h2{
+  font-weight: bold;
+    font-size: 1.5em;
+   
+}
